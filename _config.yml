@@ -17,7 +17,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: twit
 github_username:  moxdev
 
-permalink: /:catagories/:title
+permalink: /:categories/:title
 
 links:
   - title: about

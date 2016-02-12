@@ -13,6 +13,7 @@ gulp.task('serve', function () {
     // Reloads page when some of the already built files changed:
     gulp.watch('_site/**/*.*').on('change', browserSync.reload);
     gulp.watch('_config.yml').on('change', browserSync.reload);
+    gulp.watch('css/*.*').on('change', browserSync.reload);
 });
 
 gulp.task('default', ['build', 'serve']);
