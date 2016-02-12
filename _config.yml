@@ -17,6 +17,14 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: twit
 github_username:  moxdev
 
+permalink: /:catagories/:title
+
+links:
+  - title: about
+    url: /about
+  - title: posts
+    url: /posts
+
 # Build settings
 markdown: kramdown
 
@@ -25,4 +33,3 @@ exclude: [node_modules, gulpfile.js]
 
 include: ['.htaccess']
 keep_files: ['.git', '.svn', '.png']
-permalink: /:catagories/:title
