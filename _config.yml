@@ -20,10 +20,12 @@ github_username:  moxdev
 permalink: /:categories/:title
 
 links:
-  - title: about
-    url: /about
+  - title: portfolio
+    url: /portfolio
   - title: posts
     url: /posts
+  - title: about
+    url: /about
 
 # Build settings
 markdown: kramdown
